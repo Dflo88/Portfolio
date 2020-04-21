@@ -1,3 +1,33 @@
-.red {
-    color: red;
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #40546f;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  font-family: 'Libre Baskerville', serif;
+  margin: 0% 18% 0% 18%;
+  line-height: 1.6;
+}
+
+.header{
+    margin: 6% 0% 6% 0%;
+}
+
+#nameHeader {
+    font-size: 300%;
+    font-weight: 700;
+}
+
+#titleHeader {
+    font-size: 120%;
+}
+
+.aboutMeSection {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sectionHeader {
+    font-weight: 700;
+    font-size: 180%;
 }
