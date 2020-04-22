@@ -7,6 +7,7 @@ body {
   font-family: 'Libre Baskerville', serif;
   margin: 0% 18% 0% 18%;
   line-height: 1.6;
+  overflow: auto;
 }
 
 .header{
@@ -25,9 +26,47 @@ body {
 .aboutMeSection {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 6%;
 }
 
 .sectionHeader {
     font-weight: 700;
     font-size: 180%;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 100%;
+    height: 220px;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 11px;
+}
+
+.projectImageBox {
+    grid-column-start: 1;
+    background-color: #40546f;
+    width: 80%;
+    height: 80%;
+    align-self: center;
+    border-radius: 5px;
+}
+
+.projectCard {
+    grid-column-start: 2;
+    margin: 6%;
+    line-height: 1.6;
+}
+
+.projectTitle {
+    font-size: 160%;
+}
+
+.projectBuildTools {
+    color: #74b2d4;
+}
+
+.projectDescription {
+    margin-top: 5%;
 }

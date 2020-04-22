@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
-import Box from '@material-ui/core/Box';
-import { typography } from '@material-ui/system'
-import { Typography } from '@material-ui/core';
-
+import ProjectComp from './ProjectComp'
 
 class App extends Component {
     constructor(props){
         super(props);
     };
+
     render() {
         return(
-            // <Typography component="div">
-            //     <Box width="75%" fontWeight="fontWeightBold" fontSize={100} component="span" display="block" p={1} m={5}>Diego Flores</Box>
-            //     <div>Full Stack Developer</div>
-            // </Typography>
             <div>
                 <div className='header'>
                     <div id='nameHeader'>Diego Flores</div>
@@ -31,6 +25,7 @@ class App extends Component {
                         I'm happily married to my high school sweetheart and we have two young boys. Currently my free time is spent making memories with my family and traveling locally.
                         I would like to work for a company that values team work and provides a positive environment for growth.</div>
                 </div>
+                <ProjectComp/>
             </div>
         );
     };
