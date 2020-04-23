@@ -54,6 +54,11 @@ body {
     border-radius: 11px;
 }
 
+.projectImage {
+    border-radius: 5px;
+    margin: 26% 13%;
+}
+
 .projectCard {
     grid-column-start: 3;
     grid-row-start: 1;
@@ -75,10 +80,15 @@ body {
     font-size: 160%;
 }
 
+.projectLinks {
+    text-align: right;
+}
+
 .projectBuildTools {
     color: #74b2d4;
 }
 
 .projectDescription {
     margin-top: 5%;
+    margin-bottom: 5%;
 }

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import ProjectComp from './ProjectComp'
+import projectImage1 from './assets/images/portfolioSample.png'
 
 class App extends Component {
     constructor(props){
@@ -25,8 +26,12 @@ class App extends Component {
                         I'm happily married to my high school sweetheart and we have two young boys. Currently my free time is spent making memories with my family and traveling locally.
                         I would like to work for a company that values team work and provides a positive environment for growth.</div>
                 </div>
-                <ProjectComp/>
-                <ProjectComp/>
+                <ProjectComp
+                    image={projectImage1}
+                />
+                <ProjectComp
+                    image={projectImage1}
+                />
             </div>
         );
     };
