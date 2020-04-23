@@ -36,27 +36,39 @@ body {
 
 .projectContainer {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 6fr 15fr;
     grid-template-rows: 100%;
-    height: 220px;
-    border: 1px solid white;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 11px;
+    height: 300px;
+    margin-left: -5%;
+    margin-bottom: 10%;
 }
 
 .projectImageBox {
     grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
     background-color: #40546f;
-    width: 80%;
-    height: 80%;
+    width: 90%;
+    height: 90%;
     align-self: center;
-    border-radius: 5px;
+    border-radius: 11px;
 }
 
 .projectCard {
-    grid-column-start: 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
     margin: 6%;
     line-height: 1.6;
+}
+
+.projectCardStyle {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 11px;
 }
 
 .projectTitle {

@@ -4,6 +4,7 @@ function ProjectComp() {
   
   return (
     <div className='projectContainer'>
+        <div className='projectCardStyle'></div>
         <div className='projectImageBox'></div>
         <div className='projectCard'>
             <div className='projectTitle'>Project Title</div>
