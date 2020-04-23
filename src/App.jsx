@@ -26,6 +26,7 @@ class App extends Component {
                         I would like to work for a company that values team work and provides a positive environment for growth.</div>
                 </div>
                 <ProjectComp/>
+                <ProjectComp/>
             </div>
         );
     };
