@@ -80,8 +80,25 @@ body {
     font-size: 160%;
 }
 
-.projectLinks {
+.projectLinksContainer {
     text-align: right;
+}
+
+.projectLinks {
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.projectLinks:link {
+    color: $primary-color;
+}
+
+.projectLinks:visited {
+    color: $primary-color;
+}
+
+.projectLinks:hover {
+    color: #c0ccdb;
 }
 
 .projectBuildTools {
