@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ProjectComp from './ProjectComp'
-import projectImage1 from './assets/images/portfolioSample.png'
+import ProjectComp from './ProjectComp';
+import projectImage1 from './assets/images/portfolioSample.png';
 
 class App extends Component {
     constructor(props){
@@ -13,6 +13,12 @@ class App extends Component {
                 <div className='header'>
                     <div id='nameHeader'>Diego Flores</div>
                     <div id='titleHeader'>Full Stack Developer</div>
+                    <a className='socialMediaIcons'href='https://www.github.com/Dflo88' target='_blank'>
+                        <ion-icon className='githubLogo'size='large' name='logo-github'></ion-icon>
+                    </a>
+                    <a className='socialMediaIcons' href='https://www.linkedin.com/in/dflores7237' target='_blank'>
+                        <ion-icon className='linkedinLogo'size='large' name='logo-linkedin'></ion-icon>
+                    </a>
                 </div>
                 <div className='aboutMeSection'>
                     <div className='sectionHeader'>About</div>

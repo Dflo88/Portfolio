@@ -21,6 +21,21 @@ body {
 
 #titleHeader {
     font-size: 120%;
+    margin-bottom: 1%;
+}
+
+ion-icon {
+    color: $primary-color;
+    border-radius: 5px;
+  }
+
+ion-icon:hover {
+    color: white;
+    background-color: $primary-color;
+}
+
+.socialMediaIcons {
+    margin-right: 1%;
 }
 
 .aboutMeSection {
