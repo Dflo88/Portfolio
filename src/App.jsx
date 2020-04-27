@@ -32,6 +32,12 @@ class App extends Component {
                 <ProjectComp
                     image={projectImage1}
                 />
+                <div className='contactInfo'>Lets Talk! &nbsp;
+                    <a className='contactInfoEmail' href="mailto:DFlores@gmail.com">DFlores7237@gmail.com</a>
+                </div>
+                <div className='socialMediaLinksStyle'>
+                    <a className='socialMediaLinks' href='https://www.github.com/Dflo88' target='_blank'>GitHub</a> || <a className='socialMediaLinks' href='https://www.linkedin.com/in/dflores7237' target='_blank'>LinkedIn</a>
+                </div>
             </div>
         );
     };

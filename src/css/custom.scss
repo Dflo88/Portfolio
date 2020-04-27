@@ -109,3 +109,43 @@ body {
     margin-top: 5%;
     margin-bottom: 5%;
 }
+
+.contactInfo {
+    text-align: center;
+    font-size: 180%;
+    font-weight: 700;
+    margin-bottom: 8%;
+}
+
+.contactInfoEmail:link {
+    color: $primary-color;
+}
+
+.contactInfoEmail:visited {
+    color: $primary-color;
+}
+
+.contactInfoEmail:hover {
+    color: #c0ccdb;
+}
+
+.socialMediaLinksStyle {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.socialMediaLinks {
+    text-decoration: none;
+}
+
+.socialMediaLinks:link {
+    color: $primary-color;
+}
+
+.socialMediaLinks:visited {
+    color: $primary-color;
+}
+
+.socialMediaLinks:hover {
+    color: #c0ccdb;
+}
