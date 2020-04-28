@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ProjectComp from './ProjectComp';
-import projectImage1 from './assets/images/portfolioSample.png';
 import vstdaImage from './assets/images/vstdaImage.png'
 import breweryFinderImage from './assets/images/breweryFinderImage.png'
 
