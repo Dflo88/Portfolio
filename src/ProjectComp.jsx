@@ -9,13 +9,18 @@ function ProjectComp(props) {
             <img className='projectImage'src={props.image} height='120' width='200' alt='project photo' />
         </div>
         <div className='projectCard'>
-            <div className='projectTitle'>Project Title</div>
-            <div className='projectBuildTools'> Comp1 and Comp2</div>
-            <div className='projectDescription'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+            <div className='projectTitle'>{props.title}</div>
+            <div className='projectBuildTools'>{props.buildTools}</div>
+            <div className='projectDescription'>{props.description}</div>
             <div className='projectLinksContainer'>
-                <a className='projectLinks' href='https://www.github.com' target='_blank'>Github</a>
-                <br/>
-                <a className='projectLinks' href='https://www.google.com' target='_blank'>View Live</a>
+              {
+                props.githubLink && <a className='projectLinks' href={props.githubLink} target='_blank'>Github</a>
+              }
+              <br/>
+              {
+                props.deployLink && <a className='projectLinks' href={props.deployLink} target='_blank'>View Live</a>
+              }
+                
             </div>
         </div>
     </div>
