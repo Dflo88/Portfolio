@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import ProjectComp from './ProjectComp';
 import projectImage1 from './assets/images/portfolioSample.png';
+import vstdaImage from './assets/images/vstdaImage.png'
+import breweryFinderImage from './assets/images/breweryFinderImage.png'
 
 class App extends Component {
     constructor(props){
@@ -33,10 +35,20 @@ class App extends Component {
                         I would like to work for a company that values team work and provides a positive environment for growth.</div>
                 </div>
                 <ProjectComp
-                    image={projectImage1}
+                    image={breweryFinderImage}
+                    title = 'Brewery Finder'
+                    buildTools = 'React || Express'
+                    description = 'An app that uses your ip address to find any local breweries.'
+                    githubLink = 'https://github.com/Dflo88/react-100-brewery-finder'
+                    deployLink = 'https://dflores7237-brewery-finder.herokuapp.com/'
                 />
                 <ProjectComp
-                    image={projectImage1}
+                    image={vstdaImage}
+                    title = 'To Do App'
+                    buildTools = 'React || Bootstrap'
+                    description = 'Simple todo app to manage what you need... to do.'
+                    githubLink = 'https://github.com/Dflo88/VerySimpleToDoApp'
+                    deployLink = 'https://dflores7237-vstda.herokuapp.com/'
                 />
                 <div className='contactInfo'>Lets Talk! &nbsp;
                     <a className='contactInfoEmail' href="mailto:DFlores@gmail.com">DFlores7237@gmail.com</a>
