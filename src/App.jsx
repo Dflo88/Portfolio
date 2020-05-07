@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import ProjectComp from './ProjectComp';
 import vstdaImage from './assets/images/vstdaImage.png'
 import breweryFinderImage from './assets/images/breweryFinderImage.png'
+import portfolioImage from './assets/images/portfolioImage.png'
 
 class App extends Component {
     constructor(props){
@@ -48,6 +49,13 @@ class App extends Component {
                     description = 'Simple todo app to manage what you need... to do.'
                     githubLink = 'https://github.com/Dflo88/VerySimpleToDoApp'
                     deployLink = 'https://dflores7237-vstda.herokuapp.com/'
+                />
+                <ProjectComp
+                    image={portfolioImage}
+                    title = 'Portfolio'
+                    buildTools = 'React || Heroku '
+                    description = 'Clean portfolio created with React and deployed with Heroku'
+                    githubLink = 'https://github.com/Dflo88/Portfolio'
                 />
                 <div className='contactInfo'>Lets Talk! &nbsp;
                     <a className='contactInfoEmail' href="mailto:DFlores@gmail.com">DFlores7237@gmail.com</a>
